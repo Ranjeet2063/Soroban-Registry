@@ -13,12 +13,9 @@ yarn-error.log*
 pnpm-debug.log*
 
 # Environment variables
-.env
-.env.local
 .env.*.local
 
 # IDE / Editor
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -27,6 +24,9 @@ pnpm-debug.log*
 Thumbs.db
 *.sublime-workspace
 *.sublime-project
+
+# Agentic-IDE scratch (Kiro spec sessions, not project sources)
+.kiro/
 
 # Rust
 target/
@@ -76,3 +76,4 @@ ASSUMPTIONS.md
 
 # Local pgBackRest overrides (real object-storage credentials)
 database/pgbackrest/pgbackrest.local.env
+config.bat
